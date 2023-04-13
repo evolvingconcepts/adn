@@ -30,4 +30,4 @@ devices:
   - /dev/ttyUSB3
   - /dev/ttyUSB4
 
-image: "svenhamers1992/whr"
+image: "ghcr.io/evolvingconcepts/agent:agent-v0.0.2"
