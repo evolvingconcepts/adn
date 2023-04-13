@@ -1,5 +1,5 @@
 name: agent
-version: "0.1.2"
+version: "agent-v0.0.2"
 slug: agent
 description: agent
 url: "https://github.com/SvenHamers/whr_930"
@@ -26,6 +26,6 @@ devices:
   - /dev/ttyUSB3
   - /dev/ttyUSB4
 
-image: ghcr.io/evolvingconcepts/agent:latest
+image: ghcr.io/evolvingconcepts/agent
 
 
