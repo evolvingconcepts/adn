@@ -1,7 +1,7 @@
-name: Agent
+name: evolvingconcepts
 version: "0.0.1"
-slug: agent
-description: agent
+slug: evolvingconcepts
+description: evolvingconcepts
 url: "https://github.com/evolvingconcepts/adn"
 arch:
   - armhf
