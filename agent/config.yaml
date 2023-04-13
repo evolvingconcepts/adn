@@ -26,4 +26,4 @@ devices:
   - /dev/ttyUSB3
   - /dev/ttyUSB4
 
-image: flobz/psa_car_controller
+image: ghcr.io/hassio-addons/vscode/amd64
