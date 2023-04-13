@@ -1,5 +1,5 @@
 name: agent
-version: "agent-v0.0.2"
+version: "agent-v0.0.3"
 slug: agent
 description: agent
 url: "https://github.com/SvenHamers/whr_930"
