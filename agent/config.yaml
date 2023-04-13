@@ -1,7 +1,7 @@
-name: whr
+name: agent
 version: "0.1.2"
-slug: whr
-description: whr
+slug: agent
+description: agent
 url: "https://github.com/SvenHamers/whr_930"
 arch:
   - armhf
