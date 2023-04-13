@@ -26,4 +26,4 @@ devices:
   - /dev/ttyUSB3
   - /dev/ttyUSB4
 
-image: "ghcr.io/evolvingconcepts/agent:latest@sha256:2320261c3eb2bfae2785c559a72d69b669559be788a24ab45e6ff8a943b1e16f"
+image: ghcr.io/evolvingconcepts/agent:latest@sha256:2320261c3eb2bfae2785c559a72d69b669559be788a24ab45e6ff8a943b1e16f
