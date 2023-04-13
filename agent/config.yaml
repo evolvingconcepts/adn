@@ -1,8 +1,8 @@
-name: evolvingconcepts
-version: "0.0.1"
-slug: evolvingconcepts
-description: evolvingconcepts
-url: "https://github.com/evolvingconcepts/adn"
+name: whr
+version: "0.1.2"
+slug: whr
+description: whr
+url: "https://github.com/SvenHamers/whr_930"
 arch:
   - armhf
   - armv7
@@ -30,4 +30,4 @@ devices:
   - /dev/ttyUSB3
   - /dev/ttyUSB4
 
-image: "ghcr.io/evolvingconcepts/agent:agent-v0.0.2"
+image: "svenhamers1992/whr"
