@@ -4,7 +4,7 @@ slug: agent
 description: agent
 url: "https://github.com/SvenHamers/whr_930"
 arch:
-  - amd64
+  - - aarch64
 init: false
 map:
   - share:rw
