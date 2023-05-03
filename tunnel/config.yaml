@@ -17,10 +17,7 @@ options:
   ip: "home assistant ip adress"
   usb_device: "/dev/ttyUSB0"
 schema:
-  username: "str"
-  password: "str"
-  ip: "str"
-  usb_device: "str"
+  agentId: "str"
 usb: true
 devices:
   - /dev/ttyUSB0
