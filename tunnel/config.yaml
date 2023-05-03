@@ -12,10 +12,7 @@ map:
   - share:rw
 host_network: true
 options:
-  username: "user"
-  password: "password"
-  ip: "home assistant ip adress"
-  usb_device: "/dev/ttyUSB0"
+  agentId: "default"
 schema:
   agentId: "str"
 usb: true
