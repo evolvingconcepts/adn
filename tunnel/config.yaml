@@ -1,0 +1,35 @@
+name: tunnel
+version: "tunnel-v0.0.1"
+slug: tunnel
+description: tunnel
+url: "https://github.com/evolvingconcepts/adn/tunnel"
+arch:
+  - amd64
+  - armhf
+  - aarch64
+init: false
+map:
+  - share:rw
+host_network: true
+options:
+  username: "user"
+  password: "password"
+  ip: "home assistant ip adress"
+  usb_device: "/dev/ttyUSB0"
+schema:
+  username: "str"
+  password: "str"
+  ip: "str"
+  usb_device: "str"
+usb: true
+devices:
+  - /dev/ttyUSB0
+  - /dev/ttyUSB1
+  - /dev/ttyUSB2
+  - /dev/ttyUSB3
+  - /dev/ttyUSB4
+hassio_role: manager
+homeassistant_api: true
+image: ghcr.io/evolvingconcepts/tunnel
+
+
