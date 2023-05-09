@@ -1,5 +1,5 @@
 name: tunnel
-version: "tunnel-v0.0.3"
+version: "tunnel-v0.0.4"
 slug: tunnel
 description: tunnel
 url: "https://github.com/evolvingconcepts/adn/tunnel"
@@ -13,8 +13,10 @@ map:
 host_network: true
 options:
   agentId: "default"
+  host: "tunnel.evolvingconcepts.nl"
 schema:
   agentId: "str"
+  host: "str"
 usb: true
 devices:
   - /dev/ttyUSB0
