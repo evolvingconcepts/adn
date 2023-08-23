@@ -1,5 +1,5 @@
 name: agent
-version: "agent-v0.1.6"
+version: "agent-v0.1.7"
 slug: agent
 description: agent
 url: "https://github.com/SvenHamers/whr_930"
@@ -29,6 +29,7 @@ devices:
   - /dev/ttyUSB4
 hassio_role: manager
 homeassistant_api: true
+host_network: true
 image: ghcr.io/evolvingconcepts/agent
 
 
